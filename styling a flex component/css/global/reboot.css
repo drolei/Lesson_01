@@ -1,0 +1,22 @@
+/* for global styles */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+body {
+    /* background-image: url(../../img/peakpx.jpg); */ 
+    font-family: "PirataOne";
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: brown;
+}

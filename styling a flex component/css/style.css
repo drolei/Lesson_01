@@ -1,0 +1,9 @@
+/* global */
+@import "global/font.css";
+@import "global/reboot.css";
+
+/* blocks */
+@import "blocks/page-content.css";
+@import "blocks/banner-intro.css";
+@import "blocks/content.css";
+@import "blocks/content2.css"

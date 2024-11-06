@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Kelly Slab", "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            object-fit: cover;
+            height: auto;
+        }
+
+        .page-content {
+            padding: 60px 30px;
+        }
+
+        .banner-intro {
+            width: 100%;
+            padding: 60px 20px;
+            border-radius: 20px;
+            background: #ACE0F9 url("https://i.ibb.co/55D9gMh/Rectangle-3.jpg") no-repeat;
+            background-size: cover;
+        }
+
+        .banner-intro__title {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 62px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            color: antiquewhite;
+            margin: 0 0 60px;
+        }
+
+        .banner-intro__info {
+            width: 600px;
+            margin: 0 auto 85px;
+            border-radius: 20px 120px 20px 120px;
+            overflow: hidden;
+            box-shadow: 5px 5px 10px 0px rgba(172, 224, 249, 0.6);
+        }
+
+        .banner-intro__img {
+            width: 100%;
+            height: 350px;
+        }
+
+        .banner-intro__product-inner {
+            background-color: aliceblue;
+            padding: 45px 45px 50px;            
+        }
+
+        .banner-intro__product-title {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            text-align: center;
+            color: gray;
+            margin: 0 0 30px;
+        }
+
+        .banner-intro__product-text {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            color: gray;
+            width: 400px;
+            margin: 0 auto 35px;
+            text-align: center;
+        }
+
+        .banner-intro__product-price {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            text-align: right;
+            color: black;
+            display: block;
+        }
+
+        .banner-intro__link {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            color: gray;
+            text-decoration: none;
+            display: block;
+            width: 376px;
+            padding: 21px;
+            text-align: center;
+            margin: 0 auto 48px;
+            border-radius: 30px;
+            background: linear-gradient(270deg, #FFF1EB 0.07%, #ACE0F9 96.24%);
+        }
+
+        .banner-intro__note {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: antiquewhite;
+            width: 530px;
+            margin: 0 auto;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <title>Баннер</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-content">
+        <div class="banner-intro">
+            <h1 class="banner-intro__title">Интернет-магазин КотоШап</h1>
+            <div class="banner-intro__info">
+                <img class="banner-intro__img" src="https://i.ibb.co/7b1KBcB/image.jpg" height="350" width="600" alt="котик в шапочке">
+                <div class="banner-intro__product-inner">
+                    <h2 class="banner-intro__product-title">Стильные и теплые шапочки для ваших пушистых друзей!</h2>
+                    <p class="banner-intro__product-text">Подарите своим кошачьим спутникам не только уют и комфорт, но и стиль!</p>
+                    <span class="banner-intro__product-price">от 1990 руб.</span>
+                </div>              
+            </div>
+            <a class="banner-intro__link" href="#">Узнать подробнее</a>
+            <p class="banner-intro__note">Хотите узнать больше? Нажмите на кнопку выше и сделайте выгодную покупку!</p>
+        </div>
+    </div>   
+</body>
+</html>

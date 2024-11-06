@@ -1,0 +1,23 @@
+.content2 {
+    display: flex;
+    border: 1px solid rgb(148, 30, 56);
+}
+
+.content2__element {
+    height: 100px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.content2__element--blue {
+    background-color: blue;
+}
+
+.content2__element--green {
+    background-color: green;
+}
+
+.content2__element--yellow {
+    background-color: yellow;
+}
