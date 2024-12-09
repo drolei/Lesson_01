@@ -2,4 +2,14 @@
     background: linear-gradient(89.82deg, #C1DFC4 2.25%, #DEECDD 99.84%);
     border-radius: 20px;
     padding: 22px 20px 25px;
+    width: 380px;
+}
+
+.product-card__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #ac1313;
+    margin: 0 0 35px;
+    text-align: center;
 }
