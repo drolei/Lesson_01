@@ -33,3 +33,35 @@
     font-style: italic;
     color: #0e6e49;
 }
+
+.product-card__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 25px;
+    color: #ce1010;
+}
+
+.product-card__info {
+    background-color: #cec4c4;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.product-card__care {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product-card__care-group {
+
+}
+
+.product-card__care-condition {
+    display: block;
+}
+
+.product-card__care-value {
+    display: block;
+}
