@@ -58,6 +58,10 @@
 
 }
 
+.product-card__care-group--right {
+    text-align: right;
+}
+
 .product-card__care-condition {
     display: block;
 }
