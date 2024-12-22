@@ -64,8 +64,16 @@
 
 .product-card__care-condition {
     display: block;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #a03535;
+    margin: 0 0 5px;
 }
 
 .product-card__care-value {
     display: block;
+    font-size: 12px;
+    line-height: 12px;
+    color: #ac4747;
 }
