@@ -4,8 +4,9 @@
     list-style-type: none;
     display: flex;
     gap: 70px 30px;
+    flex-wrap: wrap;
 }
 
 .products__item {
-    width: 33.33%;
+    width: calc(33.33% - 20px);
 }
